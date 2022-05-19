@@ -1,8 +1,8 @@
 0x1 description
 - **AUTHORS** -> List of contributors to this repository
 
-- **shell.h** -> Header file
-- **shell.c** -> main function
+- **main.h** -> Header file
+- **main.c** -> main function
 	- **sig_handler** -> handles the Ctrl + C signal
 	- **_EOF** -> handles the End Of File condition
 - **string.c**
@@ -22,7 +22,7 @@
 	- **linkpath** -> creates a singly linked list for PATH directories
 	- **_which** -> finds the pathname of a command
 	- **free_list** -> frees the linked list of PATH value
-- **checkbuild.c**
+- **check_cmd.c**
 	- **checkbuild** -> checks if a command is a build-in command
 - **buildin.c**
 	- **exitt** -> handles the exit buildin command
